@@ -1,0 +1,23 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+img {
+  height: 59px;
+  margin: 15px 0;
+}
+
+a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+}

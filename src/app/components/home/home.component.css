@@ -1,0 +1,131 @@
+/* Global text color */
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the hero section */
+.first-section {
+  position: relative;
+  background-image: url("/code_background.webp");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* Overlay for dark background effect */
+.first-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Content inside the hero section */
+.first-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Styling for the intro text */
+.intro-text {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+/* Main title styling */
+.main-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Subtitle styling */
+.subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Circle icon size */
+.subtitle i {
+  font-size: 0.4rem;
+  margin: 0 8px;
+}
+
+/* Social media icons styling with gradient */
+.social-media {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+i {
+  color: transparent;
+  font-size: 1.5rem;
+  display: inline-block;
+  background-image: linear-gradient(
+    to bottom,
+    #2398e3,
+    #4136ce
+  ); /* Gradiente de color especificado */
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: background-image 0.3s;
+}
+
+.social-media-button {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.second-section {
+  background-color: #181818;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+}
+
+.second-section-side {
+  width: 50%;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.technologies-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.technologies img {
+  height: 150px;
+}
