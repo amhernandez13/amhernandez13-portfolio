@@ -1,4 +1,4 @@
-<div class="first-section">
+<div id="first-section" class="first-section">
   <p class="intro-text">Hi there!</p>
   <h1 class="main-title">I'm Andrés</h1>
   <p class="subtitle">
@@ -9,7 +9,7 @@
     <a class="social-media-button" href="#"><i class="bi bi-github"></i></a>
   </div>
 </div>
-<div class="second-section">
+<div id="second-section" class="second-section">
   <div class="second-section-side">
     <p>
       I am a technology enthusiast committed to continuous learning. Currently,
@@ -64,13 +64,55 @@
     </div>
   </div>
 </div>
-<div class="third-section">
+<div id="third-section" class="third-section">
   <h2>My Projects</h2>
+
+  <!-- Selector de proyecto con eventos de clic -->
   <div class="project-selector">
-    <p>All</p>
-    <p>ContaCol</p>
-    <p>SpikeRainbow</p>
-    <p>CreSentia</p>
+    <p
+      [class.selected]="currentComponent === 'all-projects'"
+      (click)="showComponent('all-projects')"
+    >
+      All
+    </p>
+    <p
+      [class.selected]="currentComponent === 'contacol'"
+      (click)="showComponent('contacol')"
+    >
+      ContaCol
+    </p>
+    <p
+      [class.selected]="currentComponent === 'spikerainbow'"
+      (click)="showComponent('spikerainbow')"
+    >
+      SpikeRainbow
+    </p>
+    <p
+      [class.selected]="currentComponent === 'cresentia'"
+      (click)="showComponent('cresentia')"
+    >
+      CreSentia
+    </p>
   </div>
-  <div class="project-container"></div>
+
+  <!-- Contenedor de proyectos que muestra solo el componente seleccionado -->
+  <div class="project-container">
+    <ng-container *ngIf="currentComponent === 'all-projects'">
+      <app-all-projects
+        (projectSelected)="showComponent($event)"
+      ></app-all-projects>
+    </ng-container>
+
+    <ng-container *ngIf="currentComponent === 'contacol'">
+      <app-contacol></app-contacol>
+    </ng-container>
+
+    <ng-container *ngIf="currentComponent === 'spikerainbow'">
+      <app-spikerainbow></app-spikerainbow>
+    </ng-container>
+
+    <ng-container *ngIf="currentComponent === 'cresentia'">
+      <app-cresentia></app-cresentia>
+    </ng-container>
+  </div>
 </div>

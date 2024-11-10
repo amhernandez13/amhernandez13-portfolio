@@ -20,4 +20,12 @@ a {
   margin-left: 40px;
   text-decoration: none;
   color: white;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+a:hover {
+  color: transparent;
+  background: linear-gradient(to right, #1ba8e8, #481ad6);
+  -webkit-background-clip: text;
+  background-clip: text;
 }

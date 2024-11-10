@@ -1,10 +1,27 @@
 import { Component } from '@angular/core';
+import { AllProjectsComponent } from '../all-projects/all-projects.component';
+import { ContacolComponent } from '../projects/contacol/contacol.component';
+import { SpikerainbowComponent } from '../projects/spikerainbow/spikerainbow.component';
+import { CresentiaComponent } from '../projects/cresentia/cresentia.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [
+    AllProjectsComponent,
+    ContacolComponent,
+    SpikerainbowComponent,
+    CresentiaComponent,
+    CommonModule,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
-export class HomeComponent {}
+export class HomeComponent {
+  currentComponent: string = 'all-projects'; // Componente inicial
+
+  showComponent(component: string) {
+    this.currentComponent = component; // Actualiza el componente actual
+  }
+}

@@ -81,11 +81,7 @@ i {
   color: transparent;
   font-size: 1.5rem;
   display: inline-block;
-  background-image: linear-gradient(
-    to bottom,
-    #2398e3,
-    #4136ce
-  ); /* Gradiente de color especificado */
+  background-image: linear-gradient(to bottom, #1ba8e8, #481ad6);
   -webkit-background-clip: text;
   background-clip: text;
   transition: background-image 0.3s;
@@ -157,8 +153,39 @@ h3 {
 .project-selector {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: #181818;
   padding: 20px 0px;
   margin: 0 60px;
+}
+
+.project-selector p {
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: color 0.3s, background-image 0.3s;
+  cursor: pointer;
+  background: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Efecto hover: aplicar gradiente al texto */
+.project-selector p:hover {
+  color: transparent;
+  background-image: linear-gradient(to right, #1ba8e8, #481ad6);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* Estilo para el texto del elemento seleccionado */
+.project-selector p.selected {
+  color: transparent;
+  background-image: linear-gradient(to right, #1ba8e8, #481ad6);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
 }
