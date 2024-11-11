@@ -3,6 +3,7 @@
   max-width: 1200px;
   margin: 50px auto;
   align-items: center;
+  gap: 10px;
 }
 
 .note {

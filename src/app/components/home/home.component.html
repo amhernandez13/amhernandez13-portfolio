@@ -5,8 +5,20 @@
     Web developer <i class="bi bi-circle-fill"></i> Based in Colombia
   </p>
   <div class="social-media">
-    <a class="social-media-button" href="#"><i class="bi bi-linkedin"></i></a>
-    <a class="social-media-button" href="#"><i class="bi bi-github"></i></a>
+    <a
+      class="social-media-button"
+      href="https://www.linkedin.com/in/amhernandez13-fullstack-developer/"
+      target="_blank"
+      rel="noopener noreferrer"
+      ><i class="bi bi-linkedin"></i
+    ></a>
+    <a
+      class="social-media-button"
+      href="https://github.com/amhernandez13"
+      target="_blank"
+      rel="noopener noreferrer"
+      ><i class="bi bi-github"></i
+    ></a>
   </div>
 </div>
 <div id="second-section" class="second-section">
@@ -20,7 +32,7 @@
     </p>
   </div>
   <div class="second-section-side">
-    <h2>My Tech Stack</h2>
+    <h2 class="tech">My Tech Stack</h2>
     <div class="technologies">
       <div class="technologies-icons">
         <h3>Frontend</h3>
@@ -85,7 +97,7 @@
       [class.selected]="currentComponent === 'spikerainbow'"
       (click)="showComponent('spikerainbow')"
     >
-      SpikeRainbow
+      Spike Rainbow
     </p>
     <p
       [class.selected]="currentComponent === 'cresentia'"
@@ -116,3 +128,4 @@
     </ng-container>
   </div>
 </div>
+<app-footer></app-footer>

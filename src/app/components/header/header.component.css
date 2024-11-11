@@ -17,7 +17,8 @@ img {
 }
 
 a {
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-decoration: none;
   color: white;
   transition: color 0.3s ease, background 0.3s ease;
@@ -28,4 +29,11 @@ a:hover {
   background: linear-gradient(to right, #1ba8e8, #481ad6);
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+@media (max-width: 550px) {
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

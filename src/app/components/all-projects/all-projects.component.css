@@ -49,3 +49,16 @@
 .project:hover .overlay {
   height: 50%;
 }
+
+@media (max-width: 1300px) {
+  .projects-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 410px) {
+  .project {
+    width: 250px;
+    height: 250px;
+  }
+}

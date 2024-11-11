@@ -1,0 +1,25 @@
+.project-description {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.note {
+  font-style: italic;
+}
+
+img {
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+
+a {
+  color: white;
+}
+
+.alert {
+  background-color: transparent;
+  margin: auto;
+}
