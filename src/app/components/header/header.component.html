@@ -2,7 +2,14 @@
   <img src="logo.png" alt="Logo" />
   <div class="header-content">
     <a href="#" (click)="scrollToSection($event, 'first-section')">Home</a>
-    <a href="#" (click)="scrollToSection($event, 'second-section')">About</a>
-    <a href="#" (click)="scrollToSection($event, 'third-section')">Projects</a>
+    <a href="#" (click)="scrollToSection($event, 'second-section')" i18n
+      >About</a
+    >
+    <a href="#" (click)="scrollToSection($event, 'third-section')" i18n
+      >Projects</a
+    >
+    <a class="language-switch" href="#" (click)="switchLanguage()" i18n
+      >Ver en Español</a
+    >
   </div>
 </div>

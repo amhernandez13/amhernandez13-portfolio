@@ -1,7 +1,7 @@
 <div id="first-section" class="first-section">
-  <p class="intro-text">Hi there!</p>
-  <h1 class="main-title">I'm Andrés</h1>
-  <p class="subtitle">
+  <p class="intro-text" i18n>Hi there!</p>
+  <h1 class="main-title" i18n>I'm Andrés</h1>
+  <p class="subtitle" i18n>
     Web developer <i class="bi bi-circle-fill"></i> Based in Colombia
   </p>
   <div class="social-media">
@@ -23,16 +23,22 @@
 </div>
 <div id="second-section" class="second-section">
   <div class="second-section-side">
-    <p>
-      I am a technology enthusiast committed to continuous learning. Currently,
-      I am venturing into the IT field—a long-time area of interest in which I
-      am determined to grow professionally. I am known for my focus on
-      self-improvement and personal growth, along with my teamwork skills,
-      empathy, and adaptability in various situations.
+    <p i18n>
+      I am a person passionate about technology and committed to continuous
+      learning.
+    </p>
+    <p i18n>
+      Currently, I am venturing into the IT field, an area that has always
+      interested me and in which I am determined to develop professionally.
+    </p>
+    <p i18n>
+      I stand out for my focus on self-improvement and individual growth, and I
+      possess teamwork skills, empathy, and adaptability to different
+      situations.
     </p>
   </div>
   <div class="second-section-side">
-    <h2 class="tech">My Tech Stack</h2>
+    <h2 class="tech" i18n>My Tech Stack</h2>
     <div class="technologies">
       <div class="technologies-icons">
         <h3>Frontend</h3>
@@ -42,7 +48,7 @@
           src="https://seeklogo.com/images/A/angular-icon-logo-5FC0C40EAC-seeklogo.com.png"
           alt="Angular"
         />
-        <p>React (Coming soon...)</p>
+        <p i18n>React (Coming soon...)</p>
         <img
           class="tech-logo"
           src="https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png"
@@ -57,7 +63,7 @@
           src="https://img.icons8.com/?size=512&id=54087&format=png"
           alt="Node"
         />
-        <p>Python (basic)</p>
+        <p i18n>Python (basic)</p>
         <img
           class="tech-logo"
           src="https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226051.png?f=webp&w=256"
@@ -65,7 +71,7 @@
         />
       </div>
       <div class="technologies-icons">
-        <h3>Databases</h3>
+        <h3 i18n>Databases</h3>
         <p>MongoDB</p>
         <img
           class="tech-logo"
@@ -77,13 +83,14 @@
   </div>
 </div>
 <div id="third-section" class="third-section">
-  <h2>My Projects</h2>
+  <h2 i18n>My Projects</h2>
 
   <!-- Selector de proyecto con eventos de clic -->
   <div class="project-selector">
     <p
       [class.selected]="currentComponent === 'all-projects'"
       (click)="showComponent('all-projects')"
+      i18n
     >
       All
     </p>

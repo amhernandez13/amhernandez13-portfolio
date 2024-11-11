@@ -31,6 +31,11 @@ a:hover {
   background-clip: text;
 }
 
+.language-switch {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
 @media (max-width: 550px) {
   .header-container {
     flex-wrap: wrap;

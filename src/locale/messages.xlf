@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2219166162326440839" datatype="html">
+        <source> © 2024 Andrés Hernández | Fullstack Developer | Portfolio crafted with dedication and a passion for code. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7091571651222742304" datatype="html">
+        <source>Projects</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7202895108919732824" datatype="html">
+        <source>Ver en Español</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="23466490114816775" datatype="html">
+        <source>Hi there!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5197541862275379200" datatype="html">
+        <source>I&apos;m Andrés</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2366496053811596651" datatype="html">
+        <source> Web developer <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-circle-fill&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Based in Colombia </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6241374973502680832" datatype="html">
+        <source> I am a person passionate about technology and committed to continuous learning. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6690052930477549725" datatype="html">
+        <source> Currently, I am venturing into the IT field, an area that has always interested me and in which I am determined to develop professionally. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2207827942641461660" datatype="html">
+        <source> I stand out for my focus on self-improvement and individual growth, and I possess teamwork skills, empathy, and adaptability to different situations. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3053573716963434124" datatype="html">
+        <source>My Tech Stack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6537428705972377204" datatype="html">
+        <source>React (Coming soon...)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1083725598377783002" datatype="html">
+        <source>Python (basic)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6444188314265110596" datatype="html">
+        <source>Databases</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">74,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7682273657615620563" datatype="html">
+        <source>My Projects</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">86,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8386976308507652568" datatype="html">
+        <source> All </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">95,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="250967096692343681" datatype="html">
+        <source> Developed as part of the Smart Projects program by Foo Talent Group, ContaCol is a web app designed to simplify electronic invoice management in Colombia through automation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/contacol/contacol.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5893470605589128457" datatype="html">
+        <source> Created for &quot;Inversiones Agroambientales H&amp;R&quot;, this application enables efficient management of the collection, storage, and payment validation of electronic invoices, ensuring accurate data extraction and minimizing human error. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/contacol/contacol.component.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4617307565391992707" datatype="html">
+        <source>Access credentials</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/contacol/contacol.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7954726086539110785" datatype="html">
+        <source>Password: Admin2024*</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/contacol/contacol.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3580856467478149801" datatype="html">
+        <source> (Logging in may take up to 1 minute as the backend reactivates after a period of inactivity) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/contacol/contacol.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5047433806609780732" datatype="html">
+        <source> CreSentia is a Colombian company focused on psychological well-being, offering personalized therapeutic programs that promote personal balance. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/cresentia/cresentia.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3103776167935633968" datatype="html">
+        <source> As part of my studies, I had the opportunity to contribute to the initial development of their upcoming web app. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/cresentia/cresentia.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="600337349905612358" datatype="html">
+        <source> In this project, I developed a registration form for one of CreSentia&apos;s user types, designed as a step-by-step process using a stepper format. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/cresentia/cresentia.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4396699654284574058" datatype="html">
+        <source> This customized form guides the user through each registration stage, completing the process by securely and efficiently sending all information to the backend. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/cresentia/cresentia.component.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6381347725927921972" datatype="html">
+        <source> Spike Rainbow is an artisanal bakery located in Cali, Colombia, that needed to expand its online presence through an ecommerce platform. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/spikerainbow/spikerainbow.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8897900695725218846" datatype="html">
+        <source> As part of my web development studies, I adapted a previous functional ecommerce project, redesigning the interface and tailoring the content to reflect Spike Rainbow&apos;s brand and products. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/spikerainbow/spikerainbow.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3494468868104196447" datatype="html">
+        <source> The result is an online store that provides an engaging and personalized experience for the bakery&apos;s customers. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/spikerainbow/spikerainbow.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3044575909049063335" datatype="html">
+        <source> (This site is under construction! The current design still reflects the base project. I&apos;m actively working on updating it to the bakery theme.) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/spikerainbow/spikerainbow.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
