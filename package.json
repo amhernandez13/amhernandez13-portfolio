@@ -7,9 +7,15 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Andres-Hernandez-web-portfolio": "node dist/andres-hernandez-web-portfolio/server/server.mjs"
+    "serve:ssr:Andres-Hernandez-web-portfolio": "node dist/andres-hernandez-web-portfolio/server/server.mjs",
+    "build:en": "ng build --configuration en",
+    "build:es": "ng build --configuration es",
+    "build:all": "ng build --localize"
   },
   "private": true,
+  "engines": {
+    "node": ">=18.19"
+  },
   "dependencies": {
     "@angular/animations": "^18.2.0",
     "@angular/common": "^18.2.0",
