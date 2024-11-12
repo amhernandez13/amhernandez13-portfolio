@@ -7,12 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Andres-Hernandez-web-portfolio": "node dist/andres-hernandez-web-portfolio/server/server.mjs",
-    "prebuild": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash && source ~/.nvm/nvm.sh && nvm install 18.19.0 && nvm use 18.19.0",
-    "build:en": "ng build --configuration en",
-    "build:es": "ng build --configuration es",
-    "build:all": "ng build --localize"
-},
+    "serve:ssr:Andres-Hernandez-web-portfolio": "node dist/andres-hernandez-web-portfolio/server/server.mjs"
+  },
   "private": true,
   "engines": {
     "node": ">=18.19"

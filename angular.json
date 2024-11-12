@@ -5,10 +5,7 @@
   "projects": {
     "Andres-Hernandez-web-portfolio": {
       "i18n": {
-        "sourceLocale": "en",
-        "locales": {
-          "es": "src/locale/messages.es.xlf"
-        }
+        "sourceLocale": "en"
       },
       "projectType": "application",
       "schematics": {},
@@ -59,7 +56,6 @@
                 }
               ],
               "outputHashing": "all",
-              "localize": ["en", "es"],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -71,31 +67,10 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true,
-              "localize": ["en"],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.dev.ts"
-                }
-              ]
-            },
-            "es": {
-              "localize": ["es"],
-              "outputPath": "dist/andres-hernandez-web-portfolio/es",
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ]
-            },
-            "en": {
-              "localize": ["en"],
-              "outputPath": "dist/andres-hernandez-web-portfolio",
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
                 }
               ]
             }
@@ -110,14 +85,6 @@
             },
             "development": {
               "buildTarget": "Andres-Hernandez-web-portfolio:build:development"
-            },
-            "en": {
-              "buildTarget": "Andres-Hernandez-web-portfolio:build:en",
-              "port": 4200
-            },
-            "es": {
-              "buildTarget": "Andres-Hernandez-web-portfolio:build:es",
-              "port": 4201
             }
           },
           "defaultConfiguration": "development"
