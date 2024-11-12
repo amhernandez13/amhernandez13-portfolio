@@ -1,0 +1,20 @@
+{
+    "redirects": [
+      {
+        "source": "/es",
+        "destination": "/es/",
+        "permanent": true
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/es/:path*",
+        "destination": "/es/:path*"
+      },
+      {
+        "source": "/:path*",
+        "destination": "/:path*"
+      }
+    ]
+  }
+  

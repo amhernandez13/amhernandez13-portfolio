@@ -130,7 +130,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="4617307565391992707" datatype="html">
-        <source>Credenciales de acceso:</source>
+        <source>Credenciales de acceso</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/contacol/contacol.component.html</context>
           <context context-type="linenumber">15,16</context>

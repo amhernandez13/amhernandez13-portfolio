@@ -91,7 +91,7 @@
             },
             "en": {
               "localize": ["en"],
-              "outputPath": "dist/andres-hernandez-web-portfolio/en",
+              "outputPath": "dist/andres-hernandez-web-portfolio",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
