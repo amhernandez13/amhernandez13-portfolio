@@ -12,6 +12,14 @@
   background-size: cover;
 }
 
+.project.polemicoin {
+  background-image: url("/polemicoin.png");
+  background-position: center;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+
+
 .project.contacol {
   background-image: url("/contacol.png");
   background-position: center;

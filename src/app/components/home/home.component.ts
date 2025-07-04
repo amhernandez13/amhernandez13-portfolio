@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AllProjectsComponent } from '../all-projects/all-projects.component';
+import { PolemicoinComponent } from '../projects/polemicoin/polemicoin.component';
 import { ContacolComponent } from '../projects/contacol/contacol.component';
 import { SpikerainbowComponent } from '../projects/spikerainbow/spikerainbow.component';
 import { CresentiaComponent } from '../projects/cresentia/cresentia.component';
@@ -16,6 +17,7 @@ import { FooterComponent } from '../footer/footer.component';
     CresentiaComponent,
     CommonModule,
     FooterComponent,
+    PolemicoinComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

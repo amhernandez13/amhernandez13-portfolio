@@ -24,17 +24,18 @@
 <div id="second-section" class="second-section">
   <div class="second-section-side">
     <p i18n>
-      I am a person passionate about technology and committed to continuous
-      learning.
+      I'm a fullstack web developer with solid skills in both frontend and
+      backend technologies.
     </p>
     <p i18n>
-      Currently, I am venturing into the IT field, an area that has always
-      interested me and in which I am determined to develop professionally.
+      Passionate about technology and committed to continuous learning, I'm
+      currently building real-world projects while exploring opportunities to
+      grow professionally in the IT field.
     </p>
     <p i18n>
-      I stand out for my focus on self-improvement and individual growth, and I
-      possess teamwork skills, empathy, and adaptability to different
-      situations.
+      I'm known for being adaptable, responsible, and focused on delivering
+      clean, scalable solutions, whether working independently or as part of a
+      team.
     </p>
   </div>
   <div class="second-section-side">
@@ -43,17 +44,11 @@
       <div class="technologies-icons">
         <h3>Frontend</h3>
         <p>Angular</p>
-        <img
-          class="tech-logo"
-          src="https://seeklogo.com/images/A/angular-icon-logo-5FC0C40EAC-seeklogo.com.png"
-          alt="Angular"
-        />
-        <p i18n>React (Coming soon...)</p>
-        <img
-          class="tech-logo"
-          src="https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png"
-          alt="React"
-        />
+        <img class="tech-logo" src="/angular.png" alt="Angular" />
+        <p i18n>Next.js</p>
+        <img class="tech-logo" src="/nextjs.png" alt="React" />
+        <p>React (coming soon...)</p>
+        <img class="tech-logo" src="/react.webp" alt="React" />
       </div>
       <div class="technologies-icons">
         <h3>Backend</h3>
@@ -79,6 +74,12 @@
           alt="MongoDB"
         />
       </div>
+      <div class="technologies-icons">
+        <h3 i18n>Others</h3>
+
+        <p i18n>Rust (basic)</p>
+        <img class="tech-logo" src="/rust.png" alt="Rust" />
+      </div>
     </div>
   </div>
 </div>
@@ -93,6 +94,12 @@
       i18n
     >
       All
+    </p>
+    <p
+      [class.selected]="currentComponent === 'polemicoin'"
+      (click)="showComponent('polemicoin')"
+    >
+      Polemicoin
     </p>
     <p
       [class.selected]="currentComponent === 'contacol'"
@@ -121,7 +128,9 @@
         (projectSelected)="showComponent($event)"
       ></app-all-projects>
     </ng-container>
-
+    <ng-container *ngIf="currentComponent === 'polemicoin'">
+      <app-polemicoin></app-polemicoin>
+    </ng-container>
     <ng-container *ngIf="currentComponent === 'contacol'">
       <app-contacol></app-contacol>
     </ng-container>
